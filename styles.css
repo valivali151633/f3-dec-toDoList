@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@400;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px:
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid blue; */
+
+}
+
+.container1 {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    box-sizing: border-box;
+    background: var(--Gray-700, #0D0D0D);
+}
+
+.container1 h1 {
+    color: var(--Blue, #4EA8DE);
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-left: 15px;
+}
+
+.container2 {
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 8;
+    box-sizing: border-box;
+    background: var(--Gray-600, #1A1A1A);
+    width: 100%
+}
+
+.dataInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 50px;
+    position: relative;
+    top: -25px;
+}
+
+#taskForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+
+}
+
+#taskForm input {
+    border-radius: 8px;
+    border: 1px solid var(--Gray-700, #0D0D0D);
+    background: var(--Gray-500, #262626);
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-grow: 1;
+    color: #F2F2F2;
+
+
+}
+
+.submitBtn {
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: var(--Blue-Dark, #1E6F9F);
+    color: var(--Gray-100, #F2F2F2);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    margin-left: 5px;
+
+}
+#taskList{
+    width: 50%;
+
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+.task-item span{
+    flex-grow: 1;
+    font-size: 20px;
+    gap: 10px;
+    color: #F2F2F2;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--Gray-400, #333);
+    background: var(--Gray-500, #262626);
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}

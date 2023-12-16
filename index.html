@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>To-Do List App</title>
+  </head>
+
+  <body>
+    <div class="container">
+      
+        <div class="container1">
+        <img src="./assets/rocket.png" />
+        <h1>to<span style="color: #5e60ce">do</span></h1>
+      </div>
+      
+      
+      <div class="container2">
+        <div class="dataInput">
+          <form id="taskForm">
+            <input
+              type="text"
+              id="taskName"
+              placeholder="Enter Your To-do List Task"
+              required
+            />
+            <button class="submitBtn" type="submit">
+              Add<span><img src="./assets/plus.png" /></span>
+            </button>
+          </form>
+        </div>
+        <div id="taskList">
+          <!-- data sould be added by the js dynamically -->
+        </div>
+      </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
